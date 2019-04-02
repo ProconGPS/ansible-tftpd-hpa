@@ -10,3 +10,6 @@ tftp_options: --secure -c
 tftp_netboot_enable: false
 tftp_netboot_file: netboot.tar.gz
 tftp_netboot_url: http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/installer-amd64/current/images/netboot
+tftp_port: 69
+tftp_directory_owner: tftp
+tftp_directory_group: tftp

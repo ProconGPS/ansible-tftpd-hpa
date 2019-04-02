@@ -3,8 +3,8 @@
   file:
     dest: "{{ tftp_directory }}"
     state: directory
-    owner: tftp
-    group: tftp
+    owner: "{{ tftp_directory_owner }}"
+    group: "{{ tftp_directory_group }}"
   become: true
 
 - name: config_tftpd | configuring tftpd
